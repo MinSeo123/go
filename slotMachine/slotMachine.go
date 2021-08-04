@@ -18,7 +18,7 @@ func  main() {
 		//랜덤값
 		rand.Seed(time.Now().UnixNano())
 		randomNum := rand.Intn(5)
-		fmt.Println("값을 입력해주세요")
+		fmt.Println("값을 입력해주세요 1~5")
 		fmt.Scan(&putNum)
 		//돈 비교
 		if haveMoney <= 0 || haveMoney >=5000 {
